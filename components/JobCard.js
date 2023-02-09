@@ -13,19 +13,19 @@ function JobCard({ item }) {
 
             </div>
             <div className='flex justify-between items-center my-3'>
-                <h4 className='text-md font-semibold  text-emerald-500'>{`₹ ${Salary_From} - ${Salary_To}`}</h4>
+                <h4 className='text-md font-semibold  text-teal-500'>{`₹ ${Salary_From} - ${Salary_To}`}</h4>
 
             </div>
 
             <div className='flex flex-row gap-3 mb-6 w-auto'>
-                <div className='flex items-center justify-center p-1 px-3 border border-emerald-100 text-emerald-600 rounded-md text-xs bg-emerald-50 font-medium'>{Work_Model}</div>
-                <div className='flex items-center justify-center p-1 px-3 border border-emerald-100 text-emerald-600  rounded-md text-xs bg-emerald-50 font-medium'>{Experience}</div>
+                <div className='flex items-center justify-center p-1 px-3 border border-teal-100 text-teal-600 rounded-md text-xs bg-teal-50 font-medium'>{Work_Model}</div>
+                <div className='flex items-center justify-center p-1 px-3 border border-teal-100 text-teal-600  rounded-md text-xs bg-teal-50 font-medium'>{Experience}</div>
 
             </div>
             <div className='flex items-end justify-start gap-4'>
                 <Link href={`${Links}`} legacyBehavior>
                     <a target="_blank">
-                        <button className='bg-emerald-500 text-sm p-2 px-5 text-white font-normal rounded-md hover:bg-emerald-700'>Apply now </button>
+                        <button className='bg-teal-500 text-sm p-2 px-5 text-white font-normal rounded-md hover:bg-teal-700'>Apply now </button>
                     </a>
                 </Link>
 
