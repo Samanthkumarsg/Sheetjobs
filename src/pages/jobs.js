@@ -2,7 +2,7 @@ import React from 'react'
 import JobCard from 'components/JobCard'
 import Header from 'components/Header'
 
-function jobs(props) {
+function Jobs(props) {
 
     console.log(props)
     const jobData = JSON.parse(props.items)
@@ -42,4 +42,4 @@ export async function getServerSideProps() {
     }
 }
 
-export default jobs
+export default Jobs
