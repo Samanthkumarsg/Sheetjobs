@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home(items) {
   const jobData = JSON.parse(items.items)
+  console.log(jobData)
   const [dataItems, setDataItems] = React.useState(jobData)
 
   return (
