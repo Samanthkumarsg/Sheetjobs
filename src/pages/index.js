@@ -52,7 +52,7 @@ export const getServerSideProps = async () => {
   })
 
   const response = await sheets.spreadsheets.values.get({
-    spreadsheetId: "1a8kxJ5MZa0C4n5fzfe1pY6LTf5iE4MNza4eVw-jHr2Y",
+    spreadsheetId: process.env.SHEET_ID,
     range: "Sheet1"
   })
 
